@@ -7,26 +7,14 @@
 
 ## User Scenarios & Testing *(mandatory)*
 
-<!--
-  IMPORTANT: User stories should be PRIORITIZED as user journeys ordered by importance.
-  Each user story/journey must be INDEPENDENTLY TESTABLE - meaning if you implement just ONE of them,
-  you should still have a viable MVP (Minimum Viable Product) that delivers value.
-  
-  Assign priorities (P1, P2, P3, etc.) to each story, where P1 is the most critical.
-  Think of each story as a standalone slice of functionality that can be:
-  - Developed independently
-  - Tested independently
-  - Deployed independently
-  - Demonstrated to users independently
--->
+### User Story 1 - [Place-Based Entry] (Priority: P1)
 
-### User Story 1 - [Brief Title] (Priority: P1)
+[Describe the primary place-based journey in plain language]
 
-[Describe this user journey in plain language]
+**Why this priority**: [Explain why this is the MVP value]
 
-**Why this priority**: [Explain the value and why it has this priority level]
-
-**Independent Test**: [Describe how this can be tested independently - e.g., "Can be fully tested by [specific action] and delivers [specific value]"]
+**Independent Test**: [Describe how the user can complete this path and receive
+value without other stories]
 
 **Acceptance Scenarios**:
 
@@ -35,25 +23,11 @@
 
 ---
 
-### User Story 2 - [Brief Title] (Priority: P2)
+### User Story 2 - [Deeper Exploration] (Priority: P2)
 
-[Describe this user journey in plain language]
+[Describe the deeper exploration journey]
 
-**Why this priority**: [Explain the value and why it has this priority level]
-
-**Independent Test**: [Describe how this can be tested independently]
-
-**Acceptance Scenarios**:
-
-1. **Given** [initial state], **When** [action], **Then** [expected outcome]
-
----
-
-### User Story 3 - [Brief Title] (Priority: P3)
-
-[Describe this user journey in plain language]
-
-**Why this priority**: [Explain the value and why it has this priority level]
+**Why this priority**: [Explain the value]
 
 **Independent Test**: [Describe how this can be tested independently]
 
@@ -63,66 +37,64 @@
 
 ---
 
-[Add more user stories as needed, each with an assigned priority]
+### User Story 3 - [Knowledge Expansion] (Priority: P3)
+
+[Describe the lightweight browsing, trivia, or enrichment journey]
+
+**Why this priority**: [Explain the value]
+
+**Independent Test**: [Describe how this can be tested independently]
+
+**Acceptance Scenarios**:
+
+1. **Given** [initial state], **When** [action], **Then** [expected outcome]
 
 ### Edge Cases
 
-<!--
-  ACTION REQUIRED: The content in this section represents placeholders.
-  Fill them out with the right edge cases.
--->
-
-- What happens when [boundary condition]?
-- How does system handle [error scenario]?
+- What happens when a province has only skeleton coverage and no city deep dive?
+- How does the system handle disputed or uncertain historical interpretation?
+- What happens when a roam scene has insufficient place-node data for a dynasty?
+- How does the UI behave when source metadata exists but should not fully
+  surface in the primary reading layer?
 
 ## Requirements *(mandatory)*
 
-<!--
-  ACTION REQUIRED: The content in this section represents placeholders.
-  Fill them out with the right functional requirements.
--->
-
 ### Functional Requirements
 
-- **FR-001**: System MUST [specific capability, e.g., "allow users to create accounts"]
-- **FR-002**: System MUST [specific capability, e.g., "validate email addresses"]  
-- **FR-003**: Users MUST be able to [key interaction, e.g., "reset their password"]
-- **FR-004**: System MUST [data requirement, e.g., "persist user preferences"]
-- **FR-005**: System MUST [behavior, e.g., "log all security events"]
+- **FR-001**: System MUST define the place-based entry point this feature adds or changes.
+- **FR-002**: System MUST describe how the feature preserves or improves dynastic legibility.
+- **FR-003**: Users MUST be able to understand what place, period, or historical layer they are viewing.
+- **FR-004**: System MUST define any new content entities, metadata, and display rules needed for the feature.
+- **FR-005**: System MUST define provenance requirements for any historical facts, summaries, or trivia introduced.
+- **FR-006**: System MUST explain whether the feature affects timeline view, roam view, card view, or shared content infrastructure.
+- **FR-007**: System MUST describe how the interaction style stays historically grounded while remaining advanced and memorable.
 
-*Example of marking unclear requirements:*
+### Historical Evidence and Editorial Notes *(mandatory when content changes)*
 
-- **FR-006**: System MUST authenticate users via [NEEDS CLARIFICATION: auth method not specified - email/password, SSO, OAuth?]
-- **FR-007**: System MUST retain user data for [NEEDS CLARIFICATION: retention period not specified]
+- Describe the source expectations for each new historical content type.
+- State whether the feature introduces interpretation, summary, or direct factual display.
+- Note how uncertainty, disagreement, or incomplete coverage will be represented.
 
 ### Key Entities *(include if feature involves data)*
 
-- **[Entity 1]**: [What it represents, key attributes without implementation]
-- **[Entity 2]**: [What it represents, relationships to other entities]
+- **Region / Province / City**: Geographic containers that anchor the user journey.
+- **Dynasty Segment**: A time-bound narrative frame for a place.
+- **Historical Event**: A place-relevant event with significance and chronology.
+- **Place Node**: A location that can appear in roam and map experiences.
+- **Source Reference**: Provenance metadata for historical assertions.
 
 ## Success Criteria *(mandatory)*
 
-<!--
-  ACTION REQUIRED: Define measurable success criteria.
-  These must be technology-agnostic and measurable.
--->
-
 ### Measurable Outcomes
 
-- **SC-001**: [Measurable metric, e.g., "Users can complete account creation in under 2 minutes"]
-- **SC-002**: [Measurable metric, e.g., "System handles 1000 concurrent users without degradation"]
-- **SC-003**: [User satisfaction metric, e.g., "90% of users successfully complete primary task on first attempt"]
-- **SC-004**: [Business metric, e.g., "Reduce support tickets related to [X] by 50%"]
+- **SC-001**: Users can enter a place-based journey and reach a meaningful historical view in three interactions or fewer.
+- **SC-002**: Users can identify the current place and dynastic context without ambiguity in the primary experience.
+- **SC-003**: Core desktop interactions remain smooth enough to preserve immersion on the supported target hardware.
+- **SC-004**: Released historical content in scope includes source metadata for all surfaced facts and trivia.
 
 ## Assumptions
 
-<!--
-  ACTION REQUIRED: The content in this section represents placeholders.
-  Fill them out with the right assumptions based on reasonable defaults
-  chosen when the feature description did not specify certain details.
--->
-
-- [Assumption about target users, e.g., "Users have stable internet connectivity"]
-- [Assumption about scope boundaries, e.g., "Mobile support is out of scope for v1"]
-- [Assumption about data/environment, e.g., "Existing authentication system will be reused"]
-- [Dependency on existing system/service, e.g., "Requires access to the existing user profile API"]
+- Users are primarily desktop users in v1.
+- National province skeleton is in scope; exhaustive city depth is not.
+- Only place-relevant events are shown on a place page.
+- All released historical content carries source metadata.
