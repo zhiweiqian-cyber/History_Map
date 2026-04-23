@@ -12,6 +12,7 @@ Required fields:
 - `id`
 - `name`
 - `hero_summary`
+- `map_shape_ref`
 - `dynasty_segment_ids`
 - `source_ids`
 

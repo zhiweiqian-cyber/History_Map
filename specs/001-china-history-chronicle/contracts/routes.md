@@ -59,9 +59,19 @@ Define the user-visible route structure and the invariants each route must keep.
 
 **Responsibility**: Featured city roam view
 
+**Must preserve**:
+
+- Same `cityId`
+- Same active dynastic segment as the last city context when possible
+
 ### `/city/:cityId/cards`
 
 **Responsibility**: Featured city card view
+
+**Must preserve**:
+
+- Same `cityId`
+- Same active dynastic segment as the last city context when possible
 
 ## Navigation Invariants
 

@@ -98,6 +98,45 @@ mode without encountering contradictory or disconnected content.
 - Mobile-first interaction design as the leading experience for v1
 - User accounts, personalization history, or social features in the first release
 
+## Release Scope
+
+### National Skeleton Scope
+
+The first release MUST preserve a full province-level China map skeleton rather
+than a single sample province. For every province-level region included in the
+shipped national map dataset, the release must include:
+
+- a selectable map region
+- a province identity record
+- a short province history summary
+- ordered dynastic segments for that province
+- structural events sufficient to explain the province's major historical role
+- source metadata for the province summary and surfaced structural events
+- a valid province route that renders even when the province has no featured city
+
+### Flagship Deep-Dive Scope
+
+The first release will provide full deep-dive city experiences for this locked
+flagship set:
+
+- Beijing
+- Xi'an
+- Chengdu
+- Hangzhou
+- Guangzhou
+
+### Route Scope
+
+The first release MUST support dedicated route states for:
+
+- `/`
+- `/province/:provinceId`
+- `/province/:provinceId/roam`
+- `/province/:provinceId/cards`
+- `/city/:cityId`
+- `/city/:cityId/roam`
+- `/city/:cityId/cards`
+
 ## Requirements *(mandatory)*
 
 ### Functional Requirements
@@ -127,16 +166,26 @@ mode without encountering contradictory or disconnected content.
 - **FR-011**: The system MUST ensure trivia appears as an optional enrichment
   layer and does not interrupt the main narrative flow.
 - **FR-012**: The system MUST maintain a visually advanced experience that feels
-  historically grounded rather than generic, game-like, or dashboard-like.
+  historically grounded rather than generic, game-like, or dashboard-like,
+  following the approved terrain-sandbox plus digital-scroll design language.
 - **FR-013**: The system MUST keep users oriented by clearly showing the current
   place and historical period in every primary reading mode.
 - **FR-014**: The system MUST provide a graceful experience for places that have
-  skeleton coverage only, including meaningful summaries or limited-state messaging.
+  skeleton coverage only, including the place title, a short historical summary,
+  and a next-step prompt to continue browsing.
 - **FR-015**: The system MUST maintain source metadata for all surfaced
   historical facts, summaries, and trivia items before they are considered ready
   for release.
 - **FR-016**: The system MUST allow uncertain or disputed historical material to
   be represented without presenting it as settled fact.
+- **FR-017**: The system MUST provide accurate selectable province-level
+  geography for every province-level region included in the shipped national map.
+- **FR-018**: The system MUST support dedicated route states for province and
+  city default, roam, and card views without silently changing the active place.
+- **FR-019**: The system MUST ship the full province-level national skeleton and
+  the five locked flagship deep-dive cities in the first release.
+- **FR-020**: The system MUST validate homepage impression, route coverage,
+  province skeleton completeness, and multi-view synchronization before release.
 
 ### Historical Evidence and Editorial Notes *(mandatory when content changes)*
 
@@ -180,12 +229,16 @@ mode without encountering contradictory or disconnected content.
 - **SC-003**: At least 80% of test users can successfully switch among timeline,
   roam, and card views without losing their understanding of the current place
   and historical period.
-- **SC-004**: The homepage communicates a clear historical-map first impression
-  to test users within 5 seconds of arrival.
+- **SC-004**: In a timed 5-second first-impression check, at least 80% of test
+  users correctly identify the product as a map-led Chinese history experience.
 - **SC-005**: All released province and featured city content in scope includes
   source metadata for surfaced facts and trivia items.
 - **SC-006**: No more than 10% of user-tested trivia interactions are judged as
   distracting from the main history flow.
+- **SC-007**: Every province-level region included in the shipped national map
+  resolves to a valid province page with non-empty skeleton content.
+- **SC-008**: Every dedicated province and city roam/cards route loads without
+  changing the active place unexpectedly.
 
 ## Assumptions
 
@@ -193,9 +246,8 @@ mode without encountering contradictory or disconnected content.
   smaller screens may receive a simplified but still functional version later.
 - Province-level national skeleton coverage is prioritized over exhaustive city
   depth.
-- The first release will focus deep content on a selected set of historically
-  weighty provinces and flagship cities such as Xi'an, Chengdu, Hangzhou,
-  Guangzhou, and Beijing.
+- The first release will focus deep content on the locked flagship city set of
+  Beijing, Xi'an, Chengdu, Hangzhou, and Guangzhou.
 - Users do not need sign-in to access the core experience in the first release.
 - The first release emphasizes historical exploration and learning rather than
   academic citation reading, while still requiring internal source traceability.
