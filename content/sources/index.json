@@ -1,0 +1,103 @@
+{
+  "sources": [
+    {
+      "id": "china-historical-atlas",
+      "title": "China Historical Atlas",
+      "source_kind": "book",
+      "author_or_org": "Tan Qixiang (ed.)",
+      "publication_note": "multi-volume historical atlas",
+      "locator": "regional plates and overview maps",
+      "confidence_level": "high"
+    },
+    {
+      "id": "regional-overview",
+      "title": "Regional Histories of China",
+      "source_kind": "curated dataset",
+      "author_or_org": "Chronicle editorial team",
+      "publication_note": "province skeleton reference set",
+      "locator": "working summary notes",
+      "confidence_level": "contextual"
+    },
+    {
+      "id": "imperial-capitals-record",
+      "title": "Imperial Capitals and Northern Power",
+      "source_kind": "book",
+      "author_or_org": "Chronicle editorial team",
+      "publication_note": "capital-region reference brief",
+      "locator": "capital corridor notes",
+      "confidence_level": "medium"
+    },
+    {
+      "id": "jiangnan-cultural-survey",
+      "title": "Jiangnan Cultural Survey",
+      "source_kind": "museum",
+      "author_or_org": "Chronicle editorial team",
+      "publication_note": "lower Yangtze reference brief",
+      "locator": "Jiangnan cultural notes",
+      "confidence_level": "medium"
+    },
+    {
+      "id": "southwest-basin-study",
+      "title": "Southwest Basin Study",
+      "source_kind": "academic paper",
+      "author_or_org": "Chronicle editorial team",
+      "publication_note": "southwest reference brief",
+      "locator": "Basin and frontier notes",
+      "confidence_level": "medium"
+    },
+    {
+      "id": "maritime-frontier-study",
+      "title": "Maritime Frontier Study",
+      "source_kind": "academic paper",
+      "author_or_org": "Chronicle editorial team",
+      "publication_note": "south coast reference brief",
+      "locator": "Maritime trade notes",
+      "confidence_level": "medium"
+    },
+    {
+      "id": "beijing-capital-brief",
+      "title": "Beijing Capital Brief",
+      "source_kind": "curated dataset",
+      "author_or_org": "Chronicle editorial team",
+      "publication_note": "flagship city editorial brief",
+      "locator": "Beijing city dossier",
+      "confidence_level": "medium"
+    },
+    {
+      "id": "xian-capital-brief",
+      "title": "Xi'an Capital Brief",
+      "source_kind": "curated dataset",
+      "author_or_org": "Chronicle editorial team",
+      "publication_note": "flagship city editorial brief",
+      "locator": "Xi'an city dossier",
+      "confidence_level": "medium"
+    },
+    {
+      "id": "chengdu-basin-brief",
+      "title": "Chengdu Basin Brief",
+      "source_kind": "curated dataset",
+      "author_or_org": "Chronicle editorial team",
+      "publication_note": "flagship city editorial brief",
+      "locator": "Chengdu city dossier",
+      "confidence_level": "medium"
+    },
+    {
+      "id": "hangzhou-jiangnan-brief",
+      "title": "Hangzhou Jiangnan Brief",
+      "source_kind": "curated dataset",
+      "author_or_org": "Chronicle editorial team",
+      "publication_note": "flagship city editorial brief",
+      "locator": "Hangzhou city dossier",
+      "confidence_level": "medium"
+    },
+    {
+      "id": "guangzhou-maritime-brief",
+      "title": "Guangzhou Maritime Brief",
+      "source_kind": "curated dataset",
+      "author_or_org": "Chronicle editorial team",
+      "publication_note": "flagship city editorial brief",
+      "locator": "Guangzhou city dossier",
+      "confidence_level": "medium"
+    }
+  ]
+}

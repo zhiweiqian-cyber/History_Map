@@ -1,0 +1,16 @@
+@keyframes slow-fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(16px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.app-shell,
+.limited-content-state {
+  animation: slow-fade-up 320ms ease-out;
+}

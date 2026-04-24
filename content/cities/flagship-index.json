@@ -1,0 +1,59 @@
+{
+  "cities": [
+    {
+      "id": "beijing",
+      "province_id": "beijing",
+      "name": "Beijing",
+      "hero_summary": "Imperial capital core and the clearest north China political center.",
+      "place_identity_line": "Imperial capital and northern state center.",
+      "lat": 39.9042,
+      "lng": 116.4074,
+      "dynasty_segment_ids": ["beijing-skeleton"],
+      "source_ids": ["china-historical-atlas", "imperial-capitals-record"]
+    },
+    {
+      "id": "xian",
+      "province_id": "shaanxi",
+      "name": "Xi'an",
+      "hero_summary": "Ancient capital city anchored by the western imperial corridor.",
+      "place_identity_line": "Former capital and western gateway city.",
+      "lat": 34.3416,
+      "lng": 108.9398,
+      "dynasty_segment_ids": ["shaanxi-capital-heartland"],
+      "source_ids": ["china-historical-atlas", "imperial-capitals-record"]
+    },
+    {
+      "id": "chengdu",
+      "province_id": "sichuan",
+      "name": "Chengdu",
+      "hero_summary": "The protected basin capital of the southwest and a durable inland hub.",
+      "place_identity_line": "Southwest basin capital and resilience center.",
+      "lat": 30.5728,
+      "lng": 104.0668,
+      "dynasty_segment_ids": ["sichuan-skeleton"],
+      "source_ids": ["china-historical-atlas", "southwest-basin-study"]
+    },
+    {
+      "id": "hangzhou",
+      "province_id": "zhejiang",
+      "name": "Hangzhou",
+      "hero_summary": "Jiangnan's refined river-lake city and a classic commercial capital.",
+      "place_identity_line": "Jiangnan cultural capital and commercial city.",
+      "lat": 30.2741,
+      "lng": 120.1551,
+      "dynasty_segment_ids": ["zhejiang-skeleton"],
+      "source_ids": ["china-historical-atlas", "jiangnan-cultural-survey"]
+    },
+    {
+      "id": "guangzhou",
+      "province_id": "guangdong",
+      "name": "Guangzhou",
+      "hero_summary": "Southern maritime gateway where trade and migration met the empire.",
+      "place_identity_line": "Southern port and maritime gateway city.",
+      "lat": 23.1291,
+      "lng": 113.2644,
+      "dynasty_segment_ids": ["guangdong-skeleton"],
+      "source_ids": ["china-historical-atlas", "maritime-frontier-study"]
+    }
+  ]
+}

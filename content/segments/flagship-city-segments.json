@@ -1,0 +1,69 @@
+{
+  "segments": [
+    {
+      "id": "beijing-imperial-capital",
+      "scope_type": "city",
+      "scope_id": "beijing",
+      "dynasty_name": "Yuan to Qing",
+      "start_year": 1264,
+      "end_year": 1912,
+      "summary": "Beijing stabilizes as the long-running imperial capital where court ritual, bureaucracy, and northern defense converge.",
+      "emphasis_level": "flagship",
+      "event_ids": ["beijing-city-structural"],
+      "trivia_ids": ["beijing-axis-trivia"],
+      "source_ids": ["imperial-capitals-record", "beijing-capital-brief"]
+    },
+    {
+      "id": "xian-capital-memory",
+      "scope_type": "city",
+      "scope_id": "xian",
+      "dynasty_name": "Han to Tang",
+      "start_year": -202,
+      "end_year": 907,
+      "summary": "Xi'an carries the memory of Chang'an as one of the grandest capital cities in Chinese history and the western anchor of empire.",
+      "emphasis_level": "flagship",
+      "event_ids": ["xian-city-structural"],
+      "trivia_ids": ["xian-grid-trivia"],
+      "source_ids": ["imperial-capitals-record", "xian-capital-brief"]
+    },
+    {
+      "id": "chengdu-basin-resilience",
+      "scope_type": "city",
+      "scope_id": "chengdu",
+      "dynasty_name": "Han to Qing",
+      "start_year": -206,
+      "end_year": 1912,
+      "summary": "Chengdu anchors a protected basin city tradition where irrigation, craft, and inland governance generate unusual continuity.",
+      "emphasis_level": "flagship",
+      "event_ids": ["chengdu-city-structural"],
+      "trivia_ids": ["chengdu-brocade-trivia"],
+      "source_ids": ["southwest-basin-study", "chengdu-basin-brief"]
+    },
+    {
+      "id": "hangzhou-jiangnan-capital",
+      "scope_type": "city",
+      "scope_id": "hangzhou",
+      "dynasty_name": "Southern Song to Qing",
+      "start_year": 1127,
+      "end_year": 1912,
+      "summary": "Hangzhou turns Jiangnan refinement into a political and commercial city form, then preserves that prestige after the capital age ends.",
+      "emphasis_level": "flagship",
+      "event_ids": ["hangzhou-city-structural"],
+      "trivia_ids": ["hangzhou-lake-trivia"],
+      "source_ids": ["jiangnan-cultural-survey", "hangzhou-jiangnan-brief"]
+    },
+    {
+      "id": "guangzhou-maritime-gateway",
+      "scope_type": "city",
+      "scope_id": "guangzhou",
+      "dynasty_name": "Tang to Qing",
+      "start_year": 618,
+      "end_year": 1912,
+      "summary": "Guangzhou becomes the empire's most durable southern port where maritime trade, customs control, and migration meet.",
+      "emphasis_level": "flagship",
+      "event_ids": ["guangzhou-city-structural"],
+      "trivia_ids": ["guangzhou-thirteen-factories-trivia"],
+      "source_ids": ["maritime-frontier-study", "guangzhou-maritime-brief"]
+    }
+  ]
+}

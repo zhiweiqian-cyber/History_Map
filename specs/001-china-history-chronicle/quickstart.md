@@ -47,9 +47,11 @@ rules hold for the first release.
 ### Journey 5: First-impression check
 
 1. Show the homepage to a test user for 5 seconds
-2. Hide the page
-3. Ask the user what kind of product it is
-4. Record whether they identify it as a map-led Chinese history experience
+2. Confirm the screen clearly shows the main headline, the national-map entry label, and visible province routes before the 5-second window ends
+3. Hide the page
+4. Ask the user what kind of product it is and what the first action appears to be
+5. Record whether they identify it as a map-led Chinese history experience and whether they say they should click a province
+6. Mark the result as `clear`, `partial`, or `unclear` in the execution log
 
 ## Content Validation Checks
 

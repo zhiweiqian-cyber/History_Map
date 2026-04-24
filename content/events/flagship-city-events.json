@@ -1,0 +1,64 @@
+{
+  "events": [
+    {
+      "id": "beijing-city-structural",
+      "scope_type": "city",
+      "scope_id": "beijing",
+      "dynasty_segment_id": "beijing-imperial-capital",
+      "title": "Beijing consolidates as the imperial capital",
+      "event_type": "structural",
+      "year_label": "Yuan to Qing",
+      "summary": "The city's palace, walls, and ceremonial axis make Beijing the clearest built expression of imperial central power in north China.",
+      "impact_line": "Explains why Beijing defines state authority more directly than any other flagship city in v1.",
+      "source_ids": ["imperial-capitals-record", "beijing-capital-brief"]
+    },
+    {
+      "id": "xian-city-structural",
+      "scope_type": "city",
+      "scope_id": "xian",
+      "dynasty_segment_id": "xian-capital-memory",
+      "title": "Xi'an concentrates the long capital tradition",
+      "event_type": "structural",
+      "year_label": "Han to Tang",
+      "summary": "As Chang'an, Xi'an gathers court politics, frontier command, and cosmopolitan exchange into one western capital landscape.",
+      "impact_line": "Explains why Xi'an is the flagship entry for Shaanxi's deep-dive city layer.",
+      "source_ids": ["imperial-capitals-record", "xian-capital-brief"]
+    },
+    {
+      "id": "chengdu-city-structural",
+      "scope_type": "city",
+      "scope_id": "chengdu",
+      "dynasty_segment_id": "chengdu-basin-resilience",
+      "title": "Chengdu secures the southwest basin",
+      "event_type": "structural",
+      "year_label": "Han to Qing",
+      "summary": "Chengdu's irrigated basin and protected geography turn it into a durable inland capital and relief center for the southwest.",
+      "impact_line": "Explains Chengdu's recurring resilience across dynastic transition.",
+      "source_ids": ["southwest-basin-study", "chengdu-basin-brief"]
+    },
+    {
+      "id": "hangzhou-city-structural",
+      "scope_type": "city",
+      "scope_id": "hangzhou",
+      "dynasty_segment_id": "hangzhou-jiangnan-capital",
+      "title": "Hangzhou becomes the Southern Song capital and Jiangnan showcase",
+      "event_type": "structural",
+      "year_label": "Southern Song to Qing",
+      "summary": "Hangzhou fuses court life, lake landscape, and commercial abundance into one of the most recognizable urban identities in Chinese history.",
+      "impact_line": "Explains why Hangzhou matters both as a capital and as a model Jiangnan city.",
+      "source_ids": ["jiangnan-cultural-survey", "hangzhou-jiangnan-brief"]
+    },
+    {
+      "id": "guangzhou-city-structural",
+      "scope_type": "city",
+      "scope_id": "guangzhou",
+      "dynasty_segment_id": "guangzhou-maritime-gateway",
+      "title": "Guangzhou anchors the maritime gateway",
+      "event_type": "structural",
+      "year_label": "Tang to Qing",
+      "summary": "Guangzhou endures as the southern customs and port city where overseas exchange becomes part of imperial governance.",
+      "impact_line": "Explains Guangzhou's role as the flagship city for maritime China.",
+      "source_ids": ["maritime-frontier-study", "guangzhou-maritime-brief"]
+    }
+  ]
+}

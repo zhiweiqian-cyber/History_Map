@@ -25,10 +25,10 @@ validated, and demonstrated independently.
 
 **Purpose**: Project initialization and baseline workspace setup
 
-- [ ] T001 Create the frontend workspace files in `frontend/package.json`, `frontend/tsconfig.json`, `frontend/vite.config.ts`, and `frontend/index.html`
-- [ ] T002 Create the application entry files in `frontend/src/main.tsx`, `frontend/src/app/App.tsx`, and `frontend/src/app/router.tsx`
-- [ ] T003 [P] Create baseline styling and tooling files in `frontend/src/styles/global.css`, `frontend/.eslintrc.cjs`, and `frontend/.prettierrc`
-- [ ] T004 [P] Configure the test stack in `frontend/vitest.config.ts`, `frontend/playwright.config.ts`, and `frontend/tests/setup.ts`
+- [X] T001 Create the frontend workspace files in `frontend/package.json`, `frontend/tsconfig.json`, `frontend/vite.config.ts`, and `frontend/index.html`
+- [X] T002 Create the application entry files in `frontend/src/main.tsx`, `frontend/src/app/App.tsx`, and `frontend/src/app/router.tsx`
+- [X] T003 [P] Create baseline styling and tooling files in `frontend/src/styles/global.css`, `frontend/.eslintrc.cjs`, and `frontend/.prettierrc`
+- [X] T004 [P] Configure the test stack in `frontend/vitest.config.ts`, `frontend/playwright.config.ts`, and `frontend/tests/setup.ts`
 
 ---
 
@@ -36,18 +36,18 @@ validated, and demonstrated independently.
 
 **Purpose**: Core infrastructure that MUST be complete before ANY user story can be implemented
 
-- [ ] T005 Define content schemas in `frontend/src/lib/schema/content.ts` for province, city, dynasty segment, event, place node, trivia, person, and source records
-- [ ] T006 [P] Implement content loading and validation helpers in `frontend/src/lib/content/loadContent.ts` and `frontend/src/lib/content/validateContent.ts`
-- [ ] T007 [P] Add province geometry assets and loaders in `content/geo/provinces.geojson` and `frontend/src/lib/content/loadGeometry.ts`
-- [ ] T008 Create the province skeleton manifest in `content/provinces/index.json` with one province record per shipped province-level map region
-- [ ] T009 [P] Create the locked flagship city manifest in `content/cities/flagship-index.json` for Beijing, Xi'an, Chengdu, Hangzhou, and Guangzhou
-- [ ] T010 Create shared history context state in `frontend/src/lib/state/historyContext.ts` to preserve place, view mode, and dynastic segment selection
-- [ ] T011 [P] Create shared layout and design tokens in `frontend/src/components/layout/AppShell.tsx`, `frontend/src/styles/tokens.css`, and `frontend/src/styles/motion.css`
-- [ ] T012 Create route-safe content guards and limited-state helpers in `frontend/src/lib/content/contentGuards.ts` and `frontend/src/components/layout/LimitedContentState.tsx`
-- [ ] T013 [P] Add foundational schema and geometry validation tests in `frontend/tests/unit/content-schema.test.ts` and `frontend/tests/unit/province-geometry.test.ts`
-- [ ] T050 Create province dynastic segment records in `content/segments/province-segments.json` for every province-level region in the shipped map dataset
-- [ ] T051 Create province structural event records in `content/events/province-structural-events.json` for the national skeleton timeline
-- [ ] T052 [P] Create the shared source registry in `content/sources/index.json` covering province skeleton and flagship city content
+- [X] T005 Define content schemas in `frontend/src/lib/schema/content.ts` for province, city, dynasty segment, event, place node, trivia, person, and source records
+- [X] T006 [P] Implement content loading and validation helpers in `frontend/src/lib/content/loadContent.ts` and `frontend/src/lib/content/validateContent.ts`
+- [X] T007 [P] Add province geometry assets and loaders in `content/geo/provinces.geojson` and `frontend/src/lib/content/loadGeometry.ts`
+- [X] T008 Create the province skeleton manifest in `content/provinces/index.json` with one province record per shipped province-level map region
+- [X] T009 [P] Create the locked flagship city manifest in `content/cities/flagship-index.json` for Beijing, Xi'an, Chengdu, Hangzhou, and Guangzhou
+- [X] T010 Create shared history context state in `frontend/src/lib/state/historyContext.ts` to preserve place, view mode, and dynastic segment selection
+- [X] T011 [P] Create shared layout and design tokens in `frontend/src/components/layout/AppShell.tsx`, `frontend/src/styles/tokens.css`, and `frontend/src/styles/motion.css`
+- [X] T012 Create route-safe content guards and limited-state helpers in `frontend/src/lib/content/contentGuards.ts` and `frontend/src/components/layout/LimitedContentState.tsx`
+- [X] T013 [P] Add foundational schema and geometry validation tests in `frontend/tests/unit/content-schema.test.ts` and `frontend/tests/unit/province-geometry.test.ts`
+- [X] T050 Create province dynastic segment records in `content/segments/province-segments.json` for every province-level region in the shipped map dataset
+- [X] T051 Create province structural event records in `content/events/province-structural-events.json` for the national skeleton timeline
+- [X] T052 [P] Create the shared source registry in `content/sources/index.json` covering province skeleton and flagship city content
 
 **Checkpoint**: Foundation ready - user story implementation can now begin
 
@@ -61,17 +61,17 @@ validated, and demonstrated independently.
 
 ### Implementation for User Story 1
 
-- [ ] T014 [P] [US1] Add homepage and province route tests in `frontend/tests/integration/homepage-map-entry.test.tsx` and `frontend/tests/integration/province-route.test.tsx`
-- [ ] T015 [P] [US1] Create the homepage screen in `frontend/src/features/home/HomePage.tsx`
-- [ ] T016 [P] [US1] Implement the national map component in `frontend/src/components/map/NationalMap.tsx`
-- [ ] T017 [US1] Wire the homepage and province default routes in `frontend/src/app/router.tsx` and `frontend/src/app/App.tsx`
-- [ ] T018 [P] [US1] Create the province screen in `frontend/src/features/province/ProvincePage.tsx`
-- [ ] T019 [P] [US1] Implement the province timeline component in `frontend/src/components/timeline/ProvinceTimeline.tsx`
-- [ ] T020 [US1] Connect map selection to province loading in `frontend/src/features/home/HomePage.tsx` and `frontend/src/lib/state/historyContext.ts`
-- [ ] T021 [US1] Add province summary, dynastic segment switching, and major event display in `frontend/src/features/province/ProvincePage.tsx` and `frontend/src/components/timeline/ProvinceTimeline.tsx`
-- [ ] T022 [US1] Add empty, loading, and skeleton-only province states in `frontend/src/features/province/ProvincePage.tsx` and `frontend/src/components/layout/LimitedContentState.tsx`
-- [ ] T023 [US1] Add homepage first-impression validation protocol in `frontend/tests/e2e/homepage-first-impression.spec.ts` and `specs/001-china-history-chronicle/quickstart.md`
-- [ ] T024 [US1] Add map-entry usage instrumentation in `frontend/src/lib/state/interactionMetrics.ts`
+- [X] T014 [P] [US1] Add homepage and province route tests in `frontend/tests/integration/homepage-map-entry.test.tsx` and `frontend/tests/integration/province-route.test.tsx`
+- [X] T015 [P] [US1] Create the homepage screen in `frontend/src/features/home/HomePage.tsx`
+- [X] T016 [P] [US1] Implement the national map component in `frontend/src/components/map/NationalMap.tsx`
+- [X] T017 [US1] Wire the homepage and province default routes in `frontend/src/app/router.tsx` and `frontend/src/app/App.tsx`
+- [X] T018 [P] [US1] Create the province screen in `frontend/src/features/province/ProvincePage.tsx`
+- [X] T019 [P] [US1] Implement the province timeline component in `frontend/src/components/timeline/ProvinceTimeline.tsx`
+- [X] T020 [US1] Connect map selection to province loading in `frontend/src/features/home/HomePage.tsx` and `frontend/src/lib/state/historyContext.ts`
+- [X] T021 [US1] Add province summary, dynastic segment switching, and major event display in `frontend/src/features/province/ProvincePage.tsx` and `frontend/src/components/timeline/ProvinceTimeline.tsx`
+- [X] T022 [US1] Add empty, loading, and skeleton-only province states in `frontend/src/features/province/ProvincePage.tsx` and `frontend/src/components/layout/LimitedContentState.tsx`
+- [X] T023 [US1] Add homepage first-impression validation protocol in `frontend/tests/e2e/homepage-first-impression.spec.ts` and `specs/001-china-history-chronicle/quickstart.md`
+- [X] T024 [US1] Add map-entry usage instrumentation in `frontend/src/lib/state/interactionMetrics.ts`
 
 ---
 
@@ -83,15 +83,15 @@ validated, and demonstrated independently.
 
 ### Implementation for User Story 2
 
-- [ ] T025 [P] [US2] Add hometown and city route tests in `frontend/tests/integration/hometown-entry.test.tsx` and `frontend/tests/integration/city-route.test.tsx`
-- [ ] T026 [P] [US2] Create the hometown entry module in `frontend/src/components/layout/HometownEntry.tsx`
-- [ ] T027 [US2] Integrate the hometown entry module into `frontend/src/features/home/HomePage.tsx`
-- [ ] T028 [P] [US2] Create the featured city screen in `frontend/src/features/city/CityPage.tsx`
-- [ ] T029 [P] [US2] Create city-level summary and dynastic hero components in `frontend/src/components/layout/CityHero.tsx` and `frontend/src/components/timeline/CityTimeline.tsx`
-- [ ] T030 [US2] Wire province-to-city and city-to-province navigation in `frontend/src/app/router.tsx` and `frontend/src/components/layout/Breadcrumbs.tsx`
-- [ ] T031 [US2] Connect hometown selection state to city loading in `frontend/src/lib/state/historyContext.ts` and `frontend/src/features/city/CityPage.tsx`
-- [ ] T032 [US2] Add limited-state handling for provinces without featured cities in `frontend/src/components/layout/HometownEntry.tsx` and `frontend/src/components/layout/LimitedContentState.tsx`
-- [ ] T033 [US2] Author the five flagship city content records, dynastic segments, events, trivia, and source references in `content/cities/flagship-index.json`, `content/segments/flagship-city-segments.json`, `content/events/flagship-city-events.json`, `content/trivia/flagship-city-trivia.json`, and `content/sources/index.json`
+- [X] T025 [P] [US2] Add hometown and city route tests in `frontend/tests/integration/hometown-entry.test.tsx` and `frontend/tests/integration/city-route.test.tsx`
+- [X] T026 [P] [US2] Create the hometown entry module in `frontend/src/components/layout/HometownEntry.tsx`
+- [X] T027 [US2] Integrate the hometown entry module into `frontend/src/features/home/HomePage.tsx`
+- [X] T028 [P] [US2] Create the featured city screen in `frontend/src/features/city/CityPage.tsx`
+- [X] T029 [P] [US2] Create city-level summary and dynastic hero components in `frontend/src/components/layout/CityHero.tsx` and `frontend/src/components/timeline/CityTimeline.tsx`
+- [X] T030 [US2] Wire province-to-city and city-to-province navigation in `frontend/src/app/router.tsx` and `frontend/src/components/layout/Breadcrumbs.tsx`
+- [X] T031 [US2] Connect hometown selection state to city loading in `frontend/src/lib/state/historyContext.ts` and `frontend/src/features/city/CityPage.tsx`
+- [X] T032 [US2] Add limited-state handling for provinces without featured cities in `frontend/src/components/layout/HometownEntry.tsx` and `frontend/src/components/layout/LimitedContentState.tsx`
+- [X] T033 [US2] Author the five flagship city content records, dynastic segments, events, trivia, and source references in `content/cities/flagship-index.json`, `content/segments/flagship-city-segments.json`, `content/events/flagship-city-events.json`, `content/trivia/flagship-city-trivia.json`, and `content/sources/index.json`
 
 ---
 

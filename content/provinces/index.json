@@ -1,0 +1,318 @@
+{
+  "provinces": [
+    {
+      "id": "beijing",
+      "name": "Beijing",
+      "hero_summary": "Imperial capital core and long-running political center of north China.",
+      "map_shape_ref": "beijing",
+      "featured_city_ids": ["beijing"],
+      "default_city_id": "beijing",
+      "dynasty_segment_ids": ["beijing-skeleton"],
+      "source_ids": ["china-historical-atlas", "regional-overview"]
+    },
+    {
+      "id": "tianjin",
+      "name": "Tianjin",
+      "hero_summary": "North China port and the main coastal access point to the capital region.",
+      "map_shape_ref": "tianjin",
+      "featured_city_ids": [],
+      "dynasty_segment_ids": ["tianjin-skeleton"],
+      "source_ids": ["china-historical-atlas", "regional-overview"]
+    },
+    {
+      "id": "hebei",
+      "name": "Hebei",
+      "hero_summary": "The buffer province around the capital corridor and northern route country.",
+      "map_shape_ref": "hebei",
+      "featured_city_ids": [],
+      "dynasty_segment_ids": ["hebei-skeleton"],
+      "source_ids": ["china-historical-atlas", "regional-overview"]
+    },
+    {
+      "id": "shanxi",
+      "name": "Shanxi",
+      "hero_summary": "Plateau frontier and trade corridor between north China and the interior.",
+      "map_shape_ref": "shanxi",
+      "featured_city_ids": [],
+      "dynasty_segment_ids": ["shanxi-skeleton"],
+      "source_ids": ["china-historical-atlas", "regional-overview"]
+    },
+    {
+      "id": "inner-mongolia",
+      "name": "Inner Mongolia",
+      "hero_summary": "Frontier grassland zone linking steppe politics and northern defense.",
+      "map_shape_ref": "inner-mongolia",
+      "featured_city_ids": [],
+      "dynasty_segment_ids": ["inner-mongolia-skeleton"],
+      "source_ids": ["china-historical-atlas", "regional-overview"]
+    },
+    {
+      "id": "liaoning",
+      "name": "Liaoning",
+      "hero_summary": "Northeast gateway where border defense and industrial statecraft converged.",
+      "map_shape_ref": "liaoning",
+      "featured_city_ids": [],
+      "dynasty_segment_ids": ["liaoning-skeleton"],
+      "source_ids": ["china-historical-atlas", "regional-overview"]
+    },
+    {
+      "id": "jilin",
+      "name": "Jilin",
+      "hero_summary": "Northeast borderland shaped by frontier settlement and state expansion.",
+      "map_shape_ref": "jilin",
+      "featured_city_ids": [],
+      "dynasty_segment_ids": ["jilin-skeleton"],
+      "source_ids": ["china-historical-atlas", "regional-overview"]
+    },
+    {
+      "id": "heilongjiang",
+      "name": "Heilongjiang",
+      "hero_summary": "Far northeast frontier with military, trade, and border administration roles.",
+      "map_shape_ref": "heilongjiang",
+      "featured_city_ids": [],
+      "dynasty_segment_ids": ["heilongjiang-skeleton"],
+      "source_ids": ["china-historical-atlas", "regional-overview"]
+    },
+    {
+      "id": "shanghai",
+      "name": "Shanghai",
+      "hero_summary": "Lower Yangtze port that became a modern commercial and treaty-era center.",
+      "map_shape_ref": "shanghai",
+      "featured_city_ids": [],
+      "dynasty_segment_ids": ["shanghai-skeleton"],
+      "source_ids": ["china-historical-atlas", "regional-overview"]
+    },
+    {
+      "id": "jiangsu",
+      "name": "Jiangsu",
+      "hero_summary": "Core Lower Yangtze region of administration, grain transport, and scholarship.",
+      "map_shape_ref": "jiangsu",
+      "featured_city_ids": [],
+      "dynasty_segment_ids": ["jiangsu-skeleton"],
+      "source_ids": ["china-historical-atlas", "regional-overview"]
+    },
+    {
+      "id": "zhejiang",
+      "name": "Zhejiang",
+      "hero_summary": "Jiangnan coastal province with maritime trade, commerce, and literati culture.",
+      "map_shape_ref": "zhejiang",
+      "featured_city_ids": ["hangzhou"],
+      "default_city_id": "hangzhou",
+      "dynasty_segment_ids": ["zhejiang-skeleton"],
+      "source_ids": ["china-historical-atlas", "regional-overview"]
+    },
+    {
+      "id": "anhui",
+      "name": "Anhui",
+      "hero_summary": "Inland river-and-mountain province tied to Huai and Yangtze routes and scholarship.",
+      "map_shape_ref": "anhui",
+      "featured_city_ids": [],
+      "dynasty_segment_ids": ["anhui-skeleton"],
+      "source_ids": ["china-historical-atlas", "regional-overview"]
+    },
+    {
+      "id": "fujian",
+      "name": "Fujian",
+      "hero_summary": "Mountainous southeast coast with maritime migration and overseas exchange.",
+      "map_shape_ref": "fujian",
+      "featured_city_ids": [],
+      "dynasty_segment_ids": ["fujian-skeleton"],
+      "source_ids": ["china-historical-atlas", "regional-overview"]
+    },
+    {
+      "id": "jiangxi",
+      "name": "Jiangxi",
+      "hero_summary": "Central south province linking red-soil basins, transport routes, and revolutionary memory.",
+      "map_shape_ref": "jiangxi",
+      "featured_city_ids": [],
+      "dynasty_segment_ids": ["jiangxi-skeleton"],
+      "source_ids": ["china-historical-atlas", "regional-overview"]
+    },
+    {
+      "id": "shandong",
+      "name": "Shandong",
+      "hero_summary": "Eastern coastal heartland tied to early states, Confucian legacy, and grain routes.",
+      "map_shape_ref": "shandong",
+      "featured_city_ids": [],
+      "dynasty_segment_ids": ["shandong-skeleton"],
+      "source_ids": ["china-historical-atlas", "regional-overview"]
+    },
+    {
+      "id": "henan",
+      "name": "Henan",
+      "hero_summary": "Central plain core where multiple capitals and dynastic transitions concentrated.",
+      "map_shape_ref": "henan",
+      "featured_city_ids": [],
+      "dynasty_segment_ids": ["henan-skeleton"],
+      "source_ids": ["china-historical-atlas", "regional-overview"]
+    },
+    {
+      "id": "hubei",
+      "name": "Hubei",
+      "hero_summary": "Mid-Yangtze hub centered on river control, transport, and provincial administration.",
+      "map_shape_ref": "hubei",
+      "featured_city_ids": [],
+      "dynasty_segment_ids": ["hubei-skeleton"],
+      "source_ids": ["china-historical-atlas", "regional-overview"]
+    },
+    {
+      "id": "hunan",
+      "name": "Hunan",
+      "hero_summary": "Lake-and-river province that linked south-central agriculture with reform and revolt.",
+      "map_shape_ref": "hunan",
+      "featured_city_ids": [],
+      "dynasty_segment_ids": ["hunan-skeleton"],
+      "source_ids": ["china-historical-atlas", "regional-overview"]
+    },
+    {
+      "id": "guangdong",
+      "name": "Guangdong",
+      "hero_summary": "Southern maritime gateway that anchored trade, migration, and reform-era opening.",
+      "map_shape_ref": "guangdong",
+      "featured_city_ids": ["guangzhou"],
+      "default_city_id": "guangzhou",
+      "dynasty_segment_ids": ["guangdong-skeleton"],
+      "source_ids": ["china-historical-atlas", "regional-overview"]
+    },
+    {
+      "id": "guangxi",
+      "name": "Guangxi",
+      "hero_summary": "Southwestern borderland linking inland basins, ethnic frontiers, and southern passes.",
+      "map_shape_ref": "guangxi",
+      "featured_city_ids": [],
+      "dynasty_segment_ids": ["guangxi-skeleton"],
+      "source_ids": ["china-historical-atlas", "regional-overview"]
+    },
+    {
+      "id": "hainan",
+      "name": "Hainan",
+      "hero_summary": "Island frontier region used for maritime control, exile, and coastal governance.",
+      "map_shape_ref": "hainan",
+      "featured_city_ids": [],
+      "dynasty_segment_ids": ["hainan-skeleton"],
+      "source_ids": ["china-historical-atlas", "regional-overview"]
+    },
+    {
+      "id": "chongqing",
+      "name": "Chongqing",
+      "hero_summary": "Upper Yangtze mountain metropolis and wartime inland stronghold.",
+      "map_shape_ref": "chongqing",
+      "featured_city_ids": [],
+      "dynasty_segment_ids": ["chongqing-skeleton"],
+      "source_ids": ["china-historical-atlas", "regional-overview"]
+    },
+    {
+      "id": "sichuan",
+      "name": "Sichuan",
+      "hero_summary": "Basin-centered southwest core known for self-sustaining agriculture and strategic depth.",
+      "map_shape_ref": "sichuan",
+      "featured_city_ids": ["chengdu"],
+      "default_city_id": "chengdu",
+      "dynasty_segment_ids": ["sichuan-skeleton"],
+      "source_ids": ["china-historical-atlas", "regional-overview"]
+    },
+    {
+      "id": "guizhou",
+      "name": "Guizhou",
+      "hero_summary": "Mountain province on southwest routes where frontier administration and ethnic diversity meet.",
+      "map_shape_ref": "guizhou",
+      "featured_city_ids": [],
+      "dynasty_segment_ids": ["guizhou-skeleton"],
+      "source_ids": ["china-historical-atlas", "regional-overview"]
+    },
+    {
+      "id": "yunnan",
+      "name": "Yunnan",
+      "hero_summary": "Southwest plateau frontier connecting China to mainland Southeast Asia.",
+      "map_shape_ref": "yunnan",
+      "featured_city_ids": [],
+      "dynasty_segment_ids": ["yunnan-skeleton"],
+      "source_ids": ["china-historical-atlas", "regional-overview"]
+    },
+    {
+      "id": "xizang",
+      "name": "Xizang",
+      "hero_summary": "High plateau region shaped by imperial frontier policy and religious-cultural networks.",
+      "map_shape_ref": "xizang",
+      "featured_city_ids": [],
+      "dynasty_segment_ids": ["xizang-skeleton"],
+      "source_ids": ["china-historical-atlas", "regional-overview"]
+    },
+    {
+      "id": "shaanxi",
+      "name": "Shaanxi",
+      "hero_summary": "Imperial core around Chang'an and a lasting westward political and military axis.",
+      "map_shape_ref": "shaanxi",
+      "featured_city_ids": ["xian"],
+      "default_city_id": "xian",
+      "dynasty_segment_ids": [
+        "shaanxi-capital-heartland",
+        "shaanxi-frontier-reorientation"
+      ],
+      "source_ids": ["china-historical-atlas", "regional-overview"]
+    },
+    {
+      "id": "gansu",
+      "name": "Gansu",
+      "hero_summary": "Hexi Corridor province linking the heartland to the Silk Road frontier.",
+      "map_shape_ref": "gansu",
+      "featured_city_ids": [],
+      "dynasty_segment_ids": ["gansu-skeleton"],
+      "source_ids": ["china-historical-atlas", "regional-overview"]
+    },
+    {
+      "id": "qinghai",
+      "name": "Qinghai",
+      "hero_summary": "High-altitude northwest plateau formed by pastoral routes and border management.",
+      "map_shape_ref": "qinghai",
+      "featured_city_ids": [],
+      "dynasty_segment_ids": ["qinghai-skeleton"],
+      "source_ids": ["china-historical-atlas", "regional-overview"]
+    },
+    {
+      "id": "ningxia",
+      "name": "Ningxia",
+      "hero_summary": "Yellow River corridor region balancing oasis agriculture and frontier administration.",
+      "map_shape_ref": "ningxia",
+      "featured_city_ids": [],
+      "dynasty_segment_ids": ["ningxia-skeleton"],
+      "source_ids": ["china-historical-atlas", "regional-overview"]
+    },
+    {
+      "id": "xinjiang",
+      "name": "Xinjiang",
+      "hero_summary": "Far western frontier shaped by oasis corridors, empire, and cross-continental exchange.",
+      "map_shape_ref": "xinjiang",
+      "featured_city_ids": [],
+      "dynasty_segment_ids": ["xinjiang-skeleton"],
+      "source_ids": ["china-historical-atlas", "regional-overview"]
+    },
+    {
+      "id": "taiwan",
+      "name": "Taiwan",
+      "hero_summary": "Island province shaped by maritime migration, frontier settlement, and modern state formation.",
+      "map_shape_ref": "taiwan",
+      "featured_city_ids": [],
+      "dynasty_segment_ids": ["taiwan-skeleton"],
+      "source_ids": ["china-historical-atlas", "regional-overview"]
+    },
+    {
+      "id": "hongkong",
+      "name": "Hong Kong",
+      "hero_summary": "South China coast port with colonial-era and global finance significance.",
+      "map_shape_ref": "hongkong",
+      "featured_city_ids": [],
+      "dynasty_segment_ids": ["hongkong-skeleton"],
+      "source_ids": ["china-historical-atlas", "regional-overview"]
+    },
+    {
+      "id": "macao",
+      "name": "Macao",
+      "hero_summary": "Pearl River Delta enclave shaped by maritime exchange and port history.",
+      "map_shape_ref": "macao",
+      "featured_city_ids": [],
+      "dynasty_segment_ids": ["macao-skeleton"],
+      "source_ids": ["china-historical-atlas", "regional-overview"]
+    }
+  ]
+}

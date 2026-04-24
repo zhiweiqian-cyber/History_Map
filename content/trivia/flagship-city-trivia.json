@@ -1,0 +1,59 @@
+{
+  "trivia": [
+    {
+      "id": "beijing-axis-trivia",
+      "scope_type": "city",
+      "scope_id": "beijing",
+      "dynasty_segment_id": "beijing-imperial-capital",
+      "trivia_type": "time-space",
+      "title": "The city axis made power legible",
+      "body": "Beijing's north-south ceremonial axis turns imperial hierarchy into an urban walking experience rather than just a court diagram.",
+      "source_ids": ["imperial-capitals-record", "beijing-capital-brief"],
+      "display_weight": 1
+    },
+    {
+      "id": "xian-grid-trivia",
+      "scope_type": "city",
+      "scope_id": "xian",
+      "dynasty_segment_id": "xian-capital-memory",
+      "trivia_type": "contrast",
+      "title": "Chang'an once felt larger than memory suggests",
+      "body": "Modern Xi'an preserves the capital memory, but the Tang-era Chang'an grid once spread far beyond what many visitors now picture from the old walls alone.",
+      "source_ids": ["imperial-capitals-record", "xian-capital-brief"],
+      "display_weight": 1
+    },
+    {
+      "id": "chengdu-brocade-trivia",
+      "scope_type": "city",
+      "scope_id": "chengdu",
+      "dynasty_segment_id": "chengdu-basin-resilience",
+      "trivia_type": "daily-life",
+      "title": "Brocade and irrigation helped the city feel rich",
+      "body": "Chengdu's reputation for urban comfort was tied not only to scenery but also to a basin economy that turned irrigation, craft, and transport into everyday abundance.",
+      "source_ids": ["southwest-basin-study", "chengdu-basin-brief"],
+      "display_weight": 1
+    },
+    {
+      "id": "hangzhou-lake-trivia",
+      "scope_type": "city",
+      "scope_id": "hangzhou",
+      "dynasty_segment_id": "hangzhou-jiangnan-capital",
+      "trivia_type": "time-space",
+      "title": "West Lake was political atmosphere too",
+      "body": "In Hangzhou, lake scenery was never only leisure background; it also shaped how the city imagined refined rule, poetry, and capital prestige.",
+      "source_ids": ["jiangnan-cultural-survey", "hangzhou-jiangnan-brief"],
+      "display_weight": 1
+    },
+    {
+      "id": "guangzhou-thirteen-factories-trivia",
+      "scope_type": "city",
+      "scope_id": "guangzhou",
+      "dynasty_segment_id": "guangzhou-maritime-gateway",
+      "trivia_type": "contrast",
+      "title": "One port could feel more global than the court center",
+      "body": "Late imperial Guangzhou exposed local residents to goods, intermediaries, and foreign merchants in ways that could feel more outward-facing than many inland political capitals.",
+      "source_ids": ["maritime-frontier-study", "guangzhou-maritime-brief"],
+      "display_weight": 1
+    }
+  ]
+}

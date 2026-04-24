@@ -1,0 +1,17 @@
+:root {
+  color-scheme: light;
+  --bg-canvas: #f2ead9;
+  --bg-panel: rgba(72, 53, 35, 0.08);
+  --bg-panel-strong: rgba(72, 53, 35, 0.14);
+  --border-soft: rgba(72, 53, 35, 0.2);
+  --ink-primary: #24180d;
+  --ink-secondary: #5f4a38;
+  --accent-gold: #9f6b2f;
+  --accent-earth: #6d4e33;
+  --shadow-soft: 0 18px 40px rgba(40, 27, 14, 0.12);
+  --radius-lg: 28px;
+  --radius-md: 18px;
+  --radius-sm: 12px;
+  --font-display: "Georgia", "Times New Roman", serif;
+  --font-body: "Segoe UI", sans-serif;
+}
